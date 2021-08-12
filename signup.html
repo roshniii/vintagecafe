@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color:blanchedalmond">
+    <section>
+      
+       <nav>
+         <div class="links">
+          <img src="logo.png" class="image">
+        <ul>
+          <li><a href="index.html">HOME </a><i class="fas fa-home"></i></li>
+          <li><a href="about.html">ABOUT </a><i class="fas fa-info-circle"></i></li>
+          <li><a href="menu.html">MENU </a><i class="fas fa-utensils"></i></li>
+          <li><a href="feedback.html">FEEDBACK  </a><i class="fas fa-comment"></i></li>
+          <li><a href="signup.html">SIGNUP </a><i class="fas fa-sign-in-alt"></i></li>
+          
+        </div>
+      </nav>
+    </section>
+    <div id="login">
+      <div id="login_form">
+        <p style="text-align: center;">Already Signed Up? Login Now</p>
+        <div class="email">
+          <input id="em" type="email" name="email" placeholder="Email" maxlength="80" style="text-align: center;">
+          <div id="em-d">
+            <img id="em-png" src="foods/Email.png">
+          </div>
+        </div>
+        <div class="password">
+          <input id="pswd" type="password" name="password" placeholder="Password" minlength="7" maxlength="20" style="text-align: center;">
+          <div id="pswd-d">
+            <img id="pswd-png" src="foods/Password.png">
+          </div>
+        </div>
+        <div class="button_class">
+        <a href="index.html"><button id="lbtn" type="button">LOGIN</button></a> 
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="signup">
+      <div class="s_head">SIGN UP</div>
+      <input id="s_name" type="name" name="name" placeholder="Full Name">
+      <input id="s_pswd" type="password" name="password" placeholder="Password" maxlength="20" minlength="8">
+      <input id="s_confirm" type="password" name="confirm password" placeholder="Confirm Password" maxlength="20" minlength="8">
+      <input id="s_email" type="email" name="email" placeholder="Email">
+      <div class="sbutton_class">
+        <button id="sbtn" type="button">REGISTER</button>
+      </div>
+    </div>
+      
+  </body>
+  </html>

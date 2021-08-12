@@ -1,0 +1,149 @@
+
+#login{
+	background:black;
+	margin-top: 10%;
+	margin-right: 15%;
+	width: 320px;
+	height:500px;
+	opacity: 0.8;
+	float: right;
+	border:6px solid white;
+}
+
+#login_form{
+	margin-top: 5%;
+	padding: 5%;
+	font-family: calibri;
+	font-size: 16pt;
+	color: #e28d26;
+	
+}
+
+.email, .password{
+	border: 1px solid white;
+	width: 282px;
+	height: 40px;
+	background: white;
+	margin-top: 10%;
+	text-align: center;
+}
+
+#em-png, #pswd-png{
+	width: 40px;
+	height: 40px;
+}
+
+#em, #pswd{
+	margin-left: 0%;
+	float: left;
+	text-align: left;
+	width: 230px;
+	height: 30px;
+	font-family: sans-serif;
+	font-size: 12pt;
+	padding: 2%;
+	border: 0px;
+	color: black;
+}
+
+#em-d, #pswd-d{
+	float: left;
+	width: 40px;
+	background: #e28d26;
+	height: 40px;
+}
+	
+.button_class{
+	margin-top: 10%;
+	width: 282px;
+	height: 40px;
+}
+
+#lbtn{
+	outline: none;
+	position: absolute;
+	background: none;
+	color: #ccc;
+	width: 282px;
+	height: 40px;
+	border: 1px solid #e28d26;
+	font-size: 18pt;
+	border-radius: 20px;
+	transition: .6s;
+	overflow: hidden;
+}
+
+.signup{
+	background: lemonchiffon;
+	opacity: 0.8;
+	width: 350px;
+	height: 500px;
+	margin-left: 20%;
+	margin-top: 10%;
+	float: left;
+	border:6px solid white;
+}
+.s_head{
+	background: #e28d26;
+	width: 350px;
+	height: 60px;
+	padding-top: 3%;
+	font-family: calibri;
+	font-size: 28pt;
+	text-align: center;
+	color: white;
+}
+
+#s_name{
+	background: none;
+	height: 20px;
+	width: 250px;
+	margin: 80px 35px 10px 45px;
+	text-align: left;
+	outline: none;
+	padding: 5px;
+	padding-left: 10px;
+	border:2px solid WHITE;
+	font-size: 14pt;
+}
+
+#s_pswd, #s_confirm, #s_email{
+	background: none;
+	height: 20px;
+	width: 250px;
+	margin: 10px 35px 10px 45px;
+	text-align: left;
+	outline: none;
+	padding: 5px;
+	padding-left: 10px;
+	border:1px solid white;
+	font-size: 14pt;
+}
+
+.sbutton_class{
+	margin: 10px 35px 10px 45px;
+	width: 260px;
+	height: 40px;
+}
+
+#sbtn{
+	outline: none;
+	position: absolute;
+	background: none;
+	color: grey;
+	width: 260px;
+	height: 40px;
+	border: 1px solid #e28d26;
+	font-size: 18pt;
+	border-radius: 20px;
+	transition: .6s;
+	overflow: hidden;
+}
+#sbtn:hover{
+	background: #e28d26;
+	cursor: pointer;
+}
+#lbtn:hover, #s_btn:hover{
+	background: #e28d26;
+	cursor: pointer;
+}
